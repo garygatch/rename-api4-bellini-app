@@ -5,7 +5,7 @@
   "singleton": true,
   "variables": [
     {
-      "name": "graphql",
+      "name": "graphqlRenamed",
       "type": "graphql-api",
       "id": "graphql-api"
     },

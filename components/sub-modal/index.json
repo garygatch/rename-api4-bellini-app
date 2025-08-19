@@ -163,7 +163,7 @@
       "watch": []
     },
     {
-      "name": "graphql",
+      "name": "graphqlRenamed",
       "type": "graphql-api",
       "id": "graphql-api"
     },
@@ -171,7 +171,7 @@
       "name": "graphFnc",
       "description": "",
       "type": "method",
-      "body": "$ctrl.graphql.query.weather({\ncity: \"New York\" },\n    {\n        id: true,\n        cityName: true,\n        currentWeather: {\n            description: true,\n            humidity: true,\n            pressure: true,\n            status: true,\n            temp: true,\n            tempHigh: true,\n            tempLow: true,\n            windSpeed: true,\n        },\n    })\n    .then((result) => {\n        $ctrl.results = JSON.stringify(result, null, 2);\n    })",
+      "body": "$ctrl.graphqlRenamed.query.weather({\ncity: \"New York\" },\n    {\n        id: true,\n        cityName: true,\n        currentWeather: {\n            description: true,\n            humidity: true,\n            pressure: true,\n            status: true,\n            temp: true,\n            tempHigh: true,\n            tempLow: true,\n            windSpeed: true,\n        },\n    })\n    .then((result) => {\n        $ctrl.results = JSON.stringify(result, null, 2);\n    })",
       "invokeOnLoad": true,
       "isAsync": false,
       "returnType": {
