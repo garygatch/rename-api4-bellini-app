@@ -1,0 +1,11 @@
+{
+  "name": "rest-api-renamed",
+  "type": "open-api",
+  "spec": "{\n  \"swagger\": \"2.0\",\n  \"info\": {\n    \"title\": \"rest-api\",\n    \"version\": \"1.0.0\"\n  },\n  \"host\": \"api.restful-api.dev\",\n  \"basePath\": \"/\",\n  \"schemes\": [\n    \"https\"\n  ],\n  \"paths\": {\n    \"/objects\": {\n      \"get\": {\n        \"responses\": {\n          \"200\": {\n            \"description\": \"OK\"\n          }\n        }\n      }\n    }\n  },\n  \"tags\": []\n}",
+  "url": null,
+  "auth": null,
+  "server": {
+    "type": "2.0",
+    "scheme": "https"
+  }
+}

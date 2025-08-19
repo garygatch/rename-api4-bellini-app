@@ -1,0 +1,8 @@
+{
+  "name": "graphql",
+  "type": "graphql-api",
+  "endpoint": "https://weather-graphql.onrender.com",
+  "schema": "# weather schema\ntype Weather {\n  id: ID!\n  zip: String!\n  cityName: String!\n  longitude: Float!\n  latitude: Float!\n  currentWeather: CurrentWeather!\n  sunrise: String!\n  sunset: String!\n}\ntype CurrentWeather {\n  status: String!\n  description: String!\n  temp: Float!\n  feels_like: Float!\n  tempHigh: Float!\n  tempLow: Float!\n  pressure: Int!\n  humidity: Int!\n  windSpeed: Float!\n}\n# queries\ntype Query {\n  weather(city: String!): Weather\n}",
+  "parameters": [],
+  "headers": []
+}

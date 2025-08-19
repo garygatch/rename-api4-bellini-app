@@ -1,0 +1,72 @@
+{
+  "type": "custom-component",
+  "name": "sub-comp",
+  "nodeName": null,
+  "description": null,
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "text",
+          "nodeName": "text",
+          "textContent": "$ctrl.pets",
+          "evaluate": true
+        }
+      ],
+      "comments": ""
+    }
+  ],
+  "variables": [
+    {
+      "name": "swagger",
+      "description": "",
+      "type": "method",
+      "body": "$ctrl.swaggerApi.findPetsByStatus({\n    status: 'available'\n}).then(result => {\n    /* process the result */\n    console.log(result.data)\n    $ctrl.pets = result.data\n})",
+      "invokeOnLoad": true,
+      "isAsync": false,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    },
+    {
+      "name": "pets",
+      "description": "",
+      "type": "property",
+      "value": ""
+    },
+    {
+      "name": "swaggerApi",
+      "type": "open-api",
+      "id": "open-api"
+    }
+  ],
+  "bindings": [],
+  "modules": [],
+  "marketplaceId": null,
+  "formControl": null,
+  "transclude": null,
+  "styles": [],
+  "directories": null,
+  "externalScripts": [],
+  "externalStylesheets": [],
+  "localScripts": [],
+  "localStylesheets": []
+}
