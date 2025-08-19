@@ -1,5 +1,5 @@
 {
-  "name": "rename-api4",
+  "name": "rename-api_1",
   "type": "app",
   "defaultPage": "home",
   "config": {
@@ -18,7 +18,6 @@
       "mockedUserAccounts": []
     }
   },
-  "directories": null,
   "externalScripts": [],
   "externalStylesheets": [],
   "localScripts": [],
